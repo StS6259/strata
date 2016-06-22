@@ -1,0 +1,16 @@
+{
+  "name": "strata",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StS6259/strata.git"
+  },
+  "bugs": {
+    "url": "https://github.com/StS6259/strata/issues"
+  },
+  "homepage": "https://github.com/StS6259/strata#readme",
+  "devDependencies": {
+    "pug": "^2.0.0-beta3",
+    "stylus": "^0.54.5"
+  }
+}
