@@ -1,13 +1,34 @@
-.contact_icon
-  position absolute
-    left -4rem
+.listContacts
+  &__item
+    padding-left 3.5rem
+    list-style none
+    font-size 1.4rem
+    line-height 2.8rem
+    color #A2A2A2
+    margin-bottom 2rem
+    &_phone
+      i
+        left -0.002rem
+    &_email
+      a
+        text-decoration none
+        transition .4s ease-in-out
+        color #A2A2A2
+        border-bottom 1px dotted #A2A2A2
+      a:hover
+        color #49bf9d
+        border none
+        transition .4s ease-in-out
+        
+  &__icon
+    position absolute
+    left -0.2rem
+    top 0.5rem
     font-size 1.6rem
+    color #B2B2B2
     @media (max-width 768px)
       left -2.4rem
-
-.contact__listContacts
-  &__item
-    p
-      position relative
-
+      
     
+
+
