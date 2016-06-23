@@ -4,3 +4,30 @@ section.contact.headers
       get in touch
     p.headers__description.
       Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.
+
+  .container
+    .row
+      .col-sm-8.contact__inputs
+        .col-sm-6.input_block
+          input(type="text" value="Name")
+        .col-sm-6.input_block
+          input(type="email" value="Email")
+        .col-sm-12.input_block
+          textarea(cols="90" rows="5") Message
+      .col-sm-4.contact__listContacts
+        .col-sm-12.listContacts__item
+          i.contact_icon.fa.fa-home(aria-hidden='true')
+          p.headers__description.
+            1234 Somewhere Rd.<br>
+            Nashville, TN 00000<br>
+            United States
+        .col-sm-12.listContacts__item
+          i.contact_icon.fa.fa-mobile(aria-hidden='true')
+          p.headers__description.
+            000-000-0000 
+        .col-sm-12.listContacts__item
+          i.contact_icon.fa.fa-envelope-o(aria-hidden='true')
+          a.message_link.headers_description(href="#")
+            hello@untitled.tld
+
+
