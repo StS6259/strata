@@ -7,10 +7,14 @@ html(lang='en')
     link(rel='stylesheet', href='./style.css')
     title Strata
   body
-
-include ./_sidebar.jade
-include ./_header.jade
-include ./_footer.jade
-include ./_about.jade
-include ./_recentwork.jade
-include ./_contact.jade
+    //- container-fluid.page_markup
+    //-   .row
+    //-     .col-sm-4.sidebar
+    //-       include ./_sidebar.jade
+    //-     .col-sm-8.col-sm-offset-4.main
+    //-       include ./_main.jade
+    include ./_header.jade
+    .main
+      .container
+        include ./_main.jade
+    include ./_footer.jade

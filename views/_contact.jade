@@ -8,24 +8,30 @@ section.contact.headers
   .container
     .row
       .col-sm-8.contact__inputs
-        .col-sm-6.input_block
-          input(type="text" value="Name")
-        .col-sm-6.input_block
-          input(type="email" value="Email")
-        .col-sm-12.input_block
-          textarea(cols="90" rows="5") Message
+        .row
+          .col-sm-6.input_block
+            input(type="text" value="Name")
+          .col-sm-6.input_block
+            input(type="email" value="Email")
+          .col-sm-12.input_block
+           textarea(cols="90" rows="5") Message
       ul.col-sm-4.listContacts
-        li.col-sm-12.listContacts__item.listContacts__item_address
-          i.listContacts__icon.fa.fa-home.fa-2x(aria-hidden='true')
-          | 1234 Somewhere Rd.<br>
-          | Nashville, TN 00000<br>
-          | United States
-        li.col-sm-12.listContacts__item.listContacts__item_phone
-          i.listContacts__icon.fa.fa-mobile.fa-2x(aria-hidden='true')
-          | 000-000-0000 
-        li.col-sm-12.listContacts__item.listContacts__item_email
-          i.listContacts__icon.fa.fa-envelope-o.fa-2x(aria-hidden='true')
-          a.listContacts__link.headers_description(href="#").
-            hello@untitled.tld
+        .row
+          li.col-sm-12.listContacts__item.listContacts__item_address
+            i.listContacts__icon.fa.fa-home.fa-2x(aria-hidden='true')
+            | 1234 Somewhere Rd.<br>
+            | Nashville, TN 00000<br>
+            | United States
+          li.col-sm-12.listContacts__item.listContacts__item_phone
+            i.listContacts__icon.fa.fa-mobile.fa-2x(aria-hidden='true')
+            | 000-000-0000 
+          li.col-sm-12.listContacts__item.listContacts__item_email
+            i.listContacts__icon.fa.fa-envelope-o.fa-2x(aria-hidden='true')
+            a.listContacts__link.link_dotted.headers_description(href="mailto:hello@untitled.tld").
+              hello@untitled.tld
+
+    .button.button send message
+
+
 
 
